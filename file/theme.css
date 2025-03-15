@@ -1,3 +1,41 @@
 body#main-body {
     background: #111;
 }
+
+body#main-body {
+    color: white;
+}
+
+div#topleft {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 6rem;
+    height: 6rem;
+    background: #333;
+    border-radius: 00 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 1rem;
+    z-index: 2;
+}
+
+div#topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background: #2b2b2b;
+    height: 6rem;
+}
+
+div#sidebar {
+    position: fixed;
+    left: 0;
+    top: 6rem;
+    height: calc(100% - 4rem);
+    width: 20vw;
+    background: #7776;
+}
