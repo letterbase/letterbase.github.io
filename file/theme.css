@@ -46,3 +46,15 @@ div#content {
     top: 8rem;
     max-width:40vw;
 }
+
+div#content {
+    left: 20vw;
+    width: calc(80vw - 8px);!;
+    min-height: calc(-8px + 100vh);
+    max-width: unset;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    background: blue;
+}
